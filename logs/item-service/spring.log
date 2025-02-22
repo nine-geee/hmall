@@ -1,0 +1,333 @@
+12:00:25:584  INFO 17952 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 17952 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+12:00:25:587 DEBUG 17952 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:00:25:587  INFO 17952 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+12:00:25:943  INFO 17952 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+12:00:26:092  INFO 17952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+12:00:26:095  INFO 17952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:00:26:096  INFO 17952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:00:26:136  INFO 17952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:00:26:136  INFO 17952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 532 ms
+12:00:26:542  INFO 17952 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:00:26:617  INFO 17952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+12:00:26:618  INFO 17952 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8081', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8081, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+12:00:26:644  INFO 17952 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:00:26:645  INFO 17952 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:00:26:652  INFO 17952 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:00:26:692  INFO 17952 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.271 seconds (JVM running for 1.526)
+12:00:31:937  INFO 17952 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:00:31:937  INFO 17952 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:00:31:938  INFO 17952 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+12:02:41:915  INFO 17993 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 17993 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+12:02:41:916 DEBUG 17993 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:02:41:916  INFO 17993 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+12:02:42:273  INFO 17993 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+12:02:42:417  INFO 17993 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+12:02:42:421  INFO 17993 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:02:42:421  INFO 17993 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:02:42:461  INFO 17993 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:02:42:461  INFO 17993 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 527 ms
+12:02:42:865  INFO 17993 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:02:42:945  INFO 17993 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+12:02:42:945  INFO 17993 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8083', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8083, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8083/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+12:02:42:965  INFO 17993 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:02:42:966  INFO 17993 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:02:42:972  INFO 17993 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:02:43:012  INFO 17993 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.246 seconds (JVM running for 1.454)
+12:02:46:525  INFO 17993 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:02:46:525  INFO 17993 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:02:46:527  INFO 17993 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+12:06:11:146  INFO 17993 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8083
+12:06:11:146  INFO 17952 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8081
+12:06:22:873  INFO 18089 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 18089 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+12:06:22:874 DEBUG 18089 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:06:22:874  INFO 18089 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+12:06:23:222  INFO 18089 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+12:06:23:365  INFO 18089 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+12:06:23:368  INFO 18089 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:06:23:368  INFO 18089 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:06:23:409  INFO 18089 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:06:23:409  INFO 18089 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 516 ms
+12:06:23:826  INFO 18089 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:06:23:942  INFO 18089 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+12:06:23:944  INFO 18089 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8083', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8083, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8083/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+12:06:23:959  INFO 18089 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:06:23:961  INFO 18089 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:06:23:970  INFO 18089 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:06:24:027  INFO 18089 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.325 seconds (JVM running for 1.557)
+12:06:24:263  INFO 18091 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 18091 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+12:06:24:264 DEBUG 18091 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:06:24:264  INFO 18091 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+12:06:24:274  INFO 18089 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:06:24:274  INFO 18089 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:06:24:275  INFO 18089 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+12:06:24:598  INFO 18091 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+12:06:24:742  INFO 18091 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+12:06:24:745  INFO 18091 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:06:24:745  INFO 18091 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:06:24:782  INFO 18091 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:06:24:782  INFO 18091 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 494 ms
+12:06:25:400  INFO 18091 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:06:25:490  INFO 18091 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+12:06:25:490  INFO 18091 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8081', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8081, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+12:06:25:523  INFO 18091 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:06:25:524  INFO 18091 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:06:25:531  INFO 18091 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:06:25:575  INFO 18091 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.467 seconds (JVM running for 1.672)
+12:06:34:454  INFO 18091 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:06:34:454  INFO 18091 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:06:34:456  INFO 18091 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+12:07:16:290  INFO 18091 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8081
+12:07:16:291  INFO 18089 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8083
+12:07:40:935  INFO 18126 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 18126 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+12:07:40:936 DEBUG 18126 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:07:40:936  INFO 18126 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+12:07:41:282  INFO 18126 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+12:07:41:439  INFO 18126 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+12:07:41:443  INFO 18126 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:07:41:443  INFO 18126 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:07:41:495  INFO 18126 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:07:41:495  INFO 18126 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 539 ms
+12:07:41:946  INFO 18128 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 18128 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+12:07:41:947 DEBUG 18128 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:07:41:947  INFO 18128 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+12:07:42:008  INFO 18126 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:07:42:111  INFO 18126 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+12:07:42:112  INFO 18126 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8081', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8081, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='0s', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+12:07:42:139  INFO 18126 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:07:42:140  INFO 18126 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:07:42:148  INFO 18126 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:07:42:194  INFO 18126 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.423 seconds (JVM running for 1.654)
+12:07:42:384  INFO 18128 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+12:07:42:578  INFO 18128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+12:07:42:581  INFO 18128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:07:42:581  INFO 18128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:07:42:624  INFO 18128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:07:42:624  INFO 18128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 656 ms
+12:07:43:063  INFO 18128 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:07:43:142  INFO 18128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+12:07:43:143  INFO 18128 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8083', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8083, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8083/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='0s', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+12:07:43:160  INFO 18128 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:07:43:162  INFO 18128 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:07:43:174  INFO 18128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:07:43:255  INFO 18128 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.473 seconds (JVM running for 1.686)
+12:07:44:436  INFO 18128 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:07:44:436  INFO 18128 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:07:44:438  INFO 18128 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+12:07:50:803  INFO 18126 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:07:50:803  INFO 18126 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:07:50:804  INFO 18126 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+12:20:07:575  INFO 18126 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8081
+12:20:07:575  INFO 18128 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8083
+12:28:04:015  INFO 18350 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 18350 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+12:28:04:016 DEBUG 18350 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:28:04:016  INFO 18350 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+12:28:04:357  INFO 18350 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+12:28:04:491  INFO 18350 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+12:28:04:494  INFO 18350 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:28:04:495  INFO 18350 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:28:04:532  INFO 18350 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:28:04:532  INFO 18350 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 498 ms
+12:28:05:157  INFO 18350 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:28:05:275  INFO 18350 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+12:28:05:275  INFO 18350 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8081', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8081, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='0s', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+12:28:05:297  INFO 18350 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:28:05:298  INFO 18350 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:28:05:308  INFO 18350 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:28:05:358  INFO 18350 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.493 seconds (JVM running for 1.686)
+12:28:12:743  INFO 18350 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:28:12:743  INFO 18350 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:28:12:744  INFO 18350 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+12:30:49:601  INFO 18350 --- [http-nio-8081-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+12:30:49:697  INFO 18350 --- [http-nio-8081-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+12:30:49:700 DEBUG 18350 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:30:49:710 DEBUG 18350 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:30:49:727 DEBUG 18350 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:30:51:429 DEBUG 18350 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:30:51:430 DEBUG 18350 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:30:51:433 DEBUG 18350 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:30:58:753 DEBUG 18350 --- [http-nio-8081-exec-10] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:30:58:754 DEBUG 18350 --- [http-nio-8081-exec-10] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:30:58:757 DEBUG 18350 --- [http-nio-8081-exec-10] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:30:58:914 DEBUG 18350 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:30:58:915 DEBUG 18350 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:30:58:919 DEBUG 18350 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:30:59:088 DEBUG 18350 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:30:59:089 DEBUG 18350 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:30:59:091 DEBUG 18350 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:30:59:393 DEBUG 18350 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:30:59:394 DEBUG 18350 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:30:59:397 DEBUG 18350 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:30:59:545 DEBUG 18350 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:30:59:545 DEBUG 18350 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:30:59:548 DEBUG 18350 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:30:59:837 DEBUG 18350 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:30:59:837 DEBUG 18350 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:30:59:840 DEBUG 18350 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:31:06:782  INFO 18350 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8081
+12:31:06:790  INFO 18350 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+12:31:06:803  INFO 18350 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+12:31:08:037  INFO 18408 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 18408 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+12:31:08:038 DEBUG 18408 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:31:08:038  INFO 18408 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+12:31:08:433  INFO 18408 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+12:31:08:575  INFO 18408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+12:31:08:578  INFO 18408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:31:08:579  INFO 18408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:31:08:618  INFO 18408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:31:08:618  INFO 18408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 548 ms
+12:31:09:009  INFO 18408 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:31:09:086  INFO 18408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+12:31:09:086  INFO 18408 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8081', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8081, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='0s', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+12:31:09:101  INFO 18408 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:31:09:102  INFO 18408 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:31:09:108  INFO 18408 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:31:09:147  INFO 18408 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.335 seconds (JVM running for 1.658)
+12:31:10:702  INFO 18408 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:31:10:702  INFO 18408 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:31:10:704  INFO 18408 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+12:31:26:010  INFO 18408 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+12:31:26:117  INFO 18408 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+12:31:26:119 DEBUG 18408 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:31:26:130 DEBUG 18408 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:31:26:146 DEBUG 18408 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:31:26:276 DEBUG 18408 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:31:26:276 DEBUG 18408 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:31:26:278 DEBUG 18408 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:31:26:607 DEBUG 18408 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:31:26:608 DEBUG 18408 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:31:26:615 DEBUG 18408 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:31:26:793 DEBUG 18408 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:31:26:794 DEBUG 18408 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:31:26:797 DEBUG 18408 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:31:26:909 DEBUG 18408 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:31:26:910 DEBUG 18408 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:31:26:912 DEBUG 18408 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:31:27:067 DEBUG 18408 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:31:27:067 DEBUG 18408 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:31:27:070 DEBUG 18408 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+12:31:27:226 DEBUG 18408 --- [http-nio-8081-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+12:31:27:227 DEBUG 18408 --- [http-nio-8081-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+12:31:27:230 DEBUG 18408 --- [http-nio-8081-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:07:53:648  INFO 18408 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8081
+13:07:53:662  INFO 18408 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+13:07:53:696  INFO 18408 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+13:14:07:149  INFO 19086 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 19086 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+13:14:07:149 DEBUG 19086 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:14:07:150  INFO 19086 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+13:14:07:573  INFO 19086 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+13:14:07:758  INFO 19086 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+13:14:07:762  INFO 19086 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:14:07:762  INFO 19086 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+13:14:07:821  INFO 19086 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:14:07:821  INFO 19086 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 653 ms
+13:14:08:371  INFO 19086 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+13:14:08:493  INFO 19086 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+13:14:08:493  INFO 19086 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8083', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8083, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8083/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='0s', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+13:14:08:512  INFO 19086 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+13:14:08:513  INFO 19086 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+13:14:08:523  INFO 19086 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+13:14:08:582  INFO 19086 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.611 seconds (JVM running for 1.92)
+13:14:09:336  INFO 19090 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 19090 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+13:14:09:338 DEBUG 19090 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:14:09:338  INFO 19090 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+13:14:09:714  INFO 19090 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+13:14:09:871  INFO 19090 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+13:14:09:875  INFO 19090 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:14:09:875  INFO 19090 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+13:14:09:919  INFO 19090 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:14:09:919  INFO 19090 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 555 ms
+13:14:10:451  INFO 19086 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:14:10:451  INFO 19086 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+13:14:10:452  INFO 19086 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+13:14:10:852  INFO 19090 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+13:14:10:958  INFO 19090 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+13:14:10:959  INFO 19090 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8081', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8081, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='0s', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+13:14:10:973  INFO 19090 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+13:14:10:974  INFO 19090 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+13:14:10:982  INFO 19090 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+13:14:11:194  INFO 19090 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 2.033 seconds (JVM running for 2.304)
+13:14:14:184  INFO 19090 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:14:14:185  INFO 19090 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+13:14:14:187  INFO 19090 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+13:14:21:395  INFO 19090 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+13:14:21:515  INFO 19090 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+13:14:21:518 DEBUG 19090 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:21:527 DEBUG 19090 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:21:553 DEBUG 19090 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:22:065  INFO 19086 --- [http-nio-8083-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+13:14:22:214  INFO 19086 --- [http-nio-8083-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+13:14:22:217 DEBUG 19086 --- [http-nio-8083-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:22:228 DEBUG 19086 --- [http-nio-8083-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:22:243 DEBUG 19086 --- [http-nio-8083-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:22:351 DEBUG 19090 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:22:351 DEBUG 19090 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:22:353 DEBUG 19090 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:22:497 DEBUG 19086 --- [http-nio-8083-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:22:497 DEBUG 19086 --- [http-nio-8083-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:22:499 DEBUG 19086 --- [http-nio-8083-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:22:668 DEBUG 19090 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:22:668 DEBUG 19090 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:22:671 DEBUG 19090 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:22:827 DEBUG 19086 --- [http-nio-8083-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:22:827 DEBUG 19086 --- [http-nio-8083-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:22:829 DEBUG 19086 --- [http-nio-8083-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:22:978 DEBUG 19090 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:22:978 DEBUG 19090 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:22:985 DEBUG 19090 --- [http-nio-8081-exec-5] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:23:135 DEBUG 19086 --- [http-nio-8083-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:23:135 DEBUG 19086 --- [http-nio-8083-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:23:138 DEBUG 19086 --- [http-nio-8083-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:23:301 DEBUG 19090 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:23:301 DEBUG 19090 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:23:305 DEBUG 19090 --- [http-nio-8081-exec-6] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:23:479 DEBUG 19086 --- [http-nio-8083-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:23:480 DEBUG 19086 --- [http-nio-8083-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:23:485 DEBUG 19086 --- [http-nio-8083-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:23:623 DEBUG 19090 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:23:623 DEBUG 19090 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:23:626 DEBUG 19090 --- [http-nio-8081-exec-7] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:23:785 DEBUG 19086 --- [http-nio-8083-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:23:786 DEBUG 19086 --- [http-nio-8083-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:23:789 DEBUG 19086 --- [http-nio-8083-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:23:935 DEBUG 19090 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:23:935 DEBUG 19090 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:23:938 DEBUG 19090 --- [http-nio-8081-exec-8] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:24:083 DEBUG 19086 --- [http-nio-8083-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:24:083 DEBUG 19086 --- [http-nio-8083-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:24:087 DEBUG 19086 --- [http-nio-8083-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:29:851  INFO 19086 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8083
+13:14:29:864  INFO 19086 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+13:14:29:875  INFO 19086 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+13:14:30:947  INFO 19093 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.10 on re-byods-146-50-193-56.wireless.uva.nl with PID 19093 (/Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall/item-service/target/classes started by zhaomeng in /Users/zhaomeng/Downloads/SpringCloud微服务—资料/hmall)
+13:14:30:948 DEBUG 19093 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:14:30:948  INFO 19093 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+13:14:31:296  INFO 19093 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ae41340-7692-3989-b8df-1a8bd6f0a8b0
+13:14:31:438  INFO 19093 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+13:14:31:440  INFO 19093 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:14:31:440  INFO 19093 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+13:14:31:479  INFO 19093 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:14:31:479  INFO 19093 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 515 ms
+13:14:31:872  INFO 19093 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+13:14:31:951  INFO 19093 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+13:14:31:952  INFO 19093 --- [main] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='item-service-8083', name='item-service', tags=[], address='re-byods-146-50-193-56.wireless.uva.nl', meta={secure=false}, port=8083, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://re-byods-146-50-193-56.wireless.uva.nl:8083/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='0s', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+13:14:31:971  INFO 19093 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+13:14:31:972  INFO 19093 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+13:14:31:979  INFO 19093 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+13:14:32:020  INFO 19093 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 1.232 seconds (JVM running for 1.508)
+13:14:36:045 DEBUG 19090 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:36:047 DEBUG 19090 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:36:052 DEBUG 19090 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:14:36:222  INFO 19093 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:14:36:222  INFO 19093 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+13:14:36:224  INFO 19093 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+13:14:36:275  INFO 19093 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+13:14:36:401  INFO 19093 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+13:14:36:404 DEBUG 19093 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+13:14:36:417 DEBUG 19093 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+13:14:36:431 DEBUG 19093 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+13:15:45:480  INFO 19090 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8081
+13:15:45:481  INFO 19093 --- [SpringApplicationShutdownHook] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: item-service-8083
+13:15:45:494  INFO 19090 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+13:15:45:500  INFO 19093 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+13:15:45:513  INFO 19090 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+13:15:45:514  INFO 19093 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
